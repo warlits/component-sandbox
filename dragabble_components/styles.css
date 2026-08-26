@@ -79,7 +79,6 @@ body{
     color: black;
     transition: 0.1s;
     transform: translate(-50%, -50%);
-    pointer-events: none;
     white-space: nowrap;
     z-index: 9999;
     background-color: white;
