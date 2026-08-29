@@ -1,0 +1,17 @@
+.wireframe-canvas {
+    --cell: 40px;
+    position: relative;
+    width: 480px;
+    height: 320px;
+    background-image:
+        linear-gradient(to right, var(--border) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+    background-size: var(--cell) var(--cell);
+}
+
+.block {
+    position: absolute;
+    width: calc(var(--cell) * var(--cols));
+    height: calc(var(--cell) * var(--rows));
+    box-sizing: border-box;
+}
